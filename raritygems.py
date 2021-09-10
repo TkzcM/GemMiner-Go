@@ -22,7 +22,7 @@ def claimGems(kind, salt, address, prikey):
 
 
 while True:
-    diff = contract_instance.functions.gems(1).call()[3]
+    diff = contract_instance.functions.gems(gem_kind).call()[3]
     nonce = contract_instance.functions.nonce(my_address).call()
     res = subprocess.check_output(
         ['./main.exe', '-nonce', str(nonce), '-diff', str(diff), '-address', my_address, '-kind', str(gem_kind)],
