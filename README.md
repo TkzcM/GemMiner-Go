@@ -4,10 +4,10 @@
 
 # Usage
 - Install Python 3.x if you don't have it.
-- Get Visual Studio Build Tools from (https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)[here].
+- Get Visual Studio Build Tools from [here](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16).
 - Install it with "C++ Desktop Development" marked and restart your PC.
 - Win+R, input "cmd", click Run, input "pip install web3" and hit "Enter".
-- Unzip the zip file from (https://github.com/TkzcM/GemMiner-Go/releases)[Releases].
+- Unzip the zip file from [Releases](https://github.com/TkzcM/GemMiner-Go/releases).
 - Edit raritygems.py, fill your address, private key and gems kind in it.
 - Double click loop.py and mining started (There's no output).
 
